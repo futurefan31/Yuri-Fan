@@ -1,0 +1,12 @@
+
+// 推送git
+git init
+git add .
+git commit -m "initial commit"
+gh repo create 仓库名 --public --source=. --remote=origin --push
+
+
+// 更新
+git add .
+git commit -m "update"
+git push
